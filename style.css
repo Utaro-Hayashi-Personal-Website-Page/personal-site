@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins|Raleway|Open+Sans|Satisfy&display=swap");
+
+/* reset box-sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* set font for entire page */
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+/* set background color for body */
+body {
+  background: linear-gradient(
+    10deg,
+    rgba(0, 0, 0, 0.066),
+    rgba(255, 255, 255, 0.8)
+  );
+  /* max-width: 960px; */
+  color: #000000fa;
+  margin: 0 auto;
+}
+
+/* set styling for main section */
+main {
+  background-image: url("img/limitless.png");
+  background-size: cover;
+  min-height: 100vh;
+  padding: 64px 24px 96px;
+  box-shadow: 12px 12px 12px 12px black;
+  color: #eeeeeef6;
+  background-color: rgba(0, 0, 0, 0.941);
+  font-family: "Open Sans", sans-serif;
+}
+
+/* set styling for header section */
+header {
+  font-size: 1.62rem;
+  position: relative;
+  left: 0;
+  right: 0;
+  padding: 0.5em;
+  /* box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.25); */
+  box-shadow: 12px 12px 12px 12px black;
+  opacity: 0.85;
+  background: #fffffff7;
+}
+
+/* clear floats after header */
+header::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+section:nth-of-type(odd) > img {
+  float: left;
+  margin: 0 24px 24px 0px;
+}
+
+section:nth-of-type(even) > img {
+  float: right;
+  margin: 0 0 24px 24px;
+}
+
+/* set styling for name in header */
+.name {
+  float: left;
+  position: absolute;
+  left: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* change the script output text color and size */
+#greetings {
+  font-size: 48px;
+  color: #0abab5;
+}
+
+/* set styling for links in header */
+.links {
+  float: right;
+}
+
+.links a {
+  text-decoration: none;
+  color: inherit;
+  margin-left: 0.25em;
+}
+
+.links a:first-of-type {
+  margin-left: 0;
+}
+
+.links a.active {
+  border-bottom: 1px solid #0000008e;
+}
+
+/* set styling for footer section */
+footer {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  position: sticky;
+  height: 48px;
+  padding: 8px 24px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: left;
+  font-size: small;
+  box-shadow: 12px 12px 12px 12px black;
+  /* box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.25); */
+  opacity: 0.85;
+  background: #fffffff7;
+}
+
+/* set styling for first div in footer */
+.footer1 {
+  flex: 1;
+  margin-left: 8px;
+  position: relative;
+}
+
+/* set styling for second div in footer */
+.footer2 {
+  margin-top: auto;
+  margin-right: 24px;
+  position: relative;
+}
+
+/* set styling for social media icons in footer */
+footer .media-link {
+  height: 24px;
+  margin-right: 8px;
+  float: right;
+}
+
+/* set position for "me" span in quote */
+/* .me {
+  padding-left: 270px;
+} */

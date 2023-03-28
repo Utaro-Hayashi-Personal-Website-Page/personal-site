@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins|Raleway|Open+Sans|Satisfy&display=swap");
+
+/* reset box-sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* set font for entire page */
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+/* set background color for body */
+/* body {
+  background: linear-gradient(
+    10deg,
+    rgba(0, 0, 0, 0.066),
+    rgba(255, 255, 255, 0.8)
+  );
+  max-width: 960px;
+  color: #000000fa;
+  margin: 0 auto;
+} */
+
+/* add slider function */
+/* body {
+  background-color: rgb(58, 58, 58);
+  margin-top: 1px;
+} */
+
+.navigation .prev {
+  position: absolute;
+  z-index: 10;
+  font-size: 25px;
+  top: 40%;
+  left: 10px;
+  font-weight: 700;
+}
+.navigation .next {
+  right: 10px;
+  position: absolute;
+  font-size: 25px;
+  z-index: 10;
+  top: 40%;
+}
+.navigation .nav-btn {
+  background: rgba(0, 0, 0, 0.253);
+  cursor: pointer;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+.navigation .nav-btn:hover {
+  background: rgba(255, 255, 255, 0.379);
+}
+
+.carousel {
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+.carousel img {
+  width: 100%;
+  transition: all 0.3s ease;
+  border: 8px solid white;
+}
+
+.item {
+  position: absolute;
+  display: none;
+}
+
+.main {
+  display: block;
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  width: 103%;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.3);
+  height: 35px;
+}
+
+/* set styling for main section */
+main {
+  background-image: url("img/Limitless.png");
+  background-size: cover;
+  min-height: 100vh;
+  padding: 64px 24px 96px;
+  box-shadow: 12px 12px 12px 12px black;
+  color: #eeeeeef6;
+  background-color: rgba(0, 0, 0, 0.941);
+  font-family: "Open Sans", sans-serif;
+}
+
+/* set styling for header section */
+header {
+  font-size: 1.62rem;
+  position: relative;
+  left: 0;
+  right: 0;
+  padding: 0.5em;
+  /* box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.25); */
+  box-shadow: 12px 12px 12px 12px black;
+  opacity: 0.85;
+  background: #fffffff7;
+}
+
+/* clear floats after header */
+header::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+/* set image sizing in carousel container
+/* .carousel-container {
+  width: 360px;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
+} */
+
+/* set styling for name in header */
+.name {
+  float: left;
+  position: absolute;
+  left: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* set styling for links in header */
+.links {
+  float: right;
+}
+
+.links a {
+  text-decoration: none;
+  color: inherit;
+  margin-left: 0.25em;
+}
+
+.links a:first-of-type {
+  margin-left: 0;
+}
+
+.links a.active {
+  border-bottom: 1px solid #0000008e;
+}
+
+/* set styling for footer section */
+footer {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  position: sticky;
+  height: 48px;
+  padding: 8px 24px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: left;
+  font-size: small;
+  /* box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.25); */
+  box-shadow: 12px 12px 12px 12px black;
+  opacity: 0.85;
+  background: #fffffff7;
+}
+
+/* set styling for first div in footer */
+.footer1 {
+  flex: 1;
+  margin-left: 8px;
+  position: relative;
+}
+
+/* set styling for second div in footer */
+.footer2 {
+  margin-top: auto;
+  margin-right: 24px;
+  position: relative;
+}
+
+/* set styling for social media icons in footer */
+footer .media-link {
+  height: 24px;
+  margin-right: 8px;
+  float: right;
+}
+
+/* set position for "me" span in quote */
+/* .me {
+  padding-left: 270px;
+} */
