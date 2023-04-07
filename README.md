@@ -45,3 +45,16 @@
 [x] Understands frontend web development with CSS
 
 [x] This criterion is linked to a Learning OutcomeTC-FR 5: Frontend web development with JavaScript
+
+[] Github Project-Generate a github project and repository containing the project
+[] Create a functioning layout in CSS grid or CSS flex
+[] Various kinds of CSS Units. Proportional units are used
+[] Advanced CSS Selectors use at least one of the following selectors: media queries, nth selectors, !important, hierarchical selectors
+[] Advanced CSS Rules use at least one of the following rules: box-sizing, backgrounds, DOM ordering, z-index, transitions, calc, common shorthands
+[] Contact Form Design and build an HTML form with a variety of input types. Form must have a functional submit button leading to another page.
+[] Dynamics Collaborate with a partner to build a project plan
+[] Learning OutcomeFC-CD-4: Understands git and github fundamentals
+[] TC-FR 2: Understand expanded HTML Skills
+[] TC-FR 4: Understands expanded CSS skills
+[] TC-FR 5: Frontend web development with JavaScript
+[] PC-PP 1: Understand industry professional practices
