@@ -117,6 +117,7 @@ header::after {
   grid-column-start: 4;
   grid-column-end: 4;
   width: fit-content;
+ justify-self: right;
 }
 
 #form #submit {
