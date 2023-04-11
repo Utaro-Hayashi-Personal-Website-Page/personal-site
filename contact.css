@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins|Raleway|Open+Sans|Satisfy&display=swap");
 
 /* reset box-sizing */
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -69,10 +71,66 @@ header::after {
   right: 24px;
 }
 
-#input-form {
-  margin: 32px 16px 16px 16px;
+#contact-form {
+  text-align: center;
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
 
+.input-form {
+  padding: 2em 4em 2em 4em;
+  display: grid;
+  row-gap: 0.5rem;
+  column-gap: 0.5rem;
+  /* grid-template-columns: repeat(4, 1fr); */
+  grid-template-columns: 15% 25% 15% 25%;
+  grid-template-rows: 1.5rem 1.5rem 1.5rem 10rem;
+  border-radius: 20%;
+}
+
+#first-name-input, #last-name-input, #email-input, #phone-input {
+  border-radius: 5px;
+}
+
+#message-input {
+  grid-column: 2;
+  grid-column-end: 5;
+  grid-row: 3;
+  grid-row-end: 5;
+  border-radius: 5px;
+}
+
+#first-name-label, #first-name-input, #last-name-label, #last-name-input {
+  /* grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row: 1; */
+}
+
+#first-name-label, #last-name-label {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+#submit {
+  grid-row-start: 5;
+  grid-column-start: 4;
+  grid-column-end: 4;
+  width: fit-content;
+}
+
+#form #submit {
+  text-align: right;
+}
+/* .grid-col-span-2 {
+  grid-column: span 2;
+} */
+
+/* #message-input {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  text-align: start;
+} */
 
 /* set styling for links in header */
 .links {
