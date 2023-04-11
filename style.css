@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins|Raleway|Open+Sans|Satisfy&display=swap");
 
 /* reset box-sizing */
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
