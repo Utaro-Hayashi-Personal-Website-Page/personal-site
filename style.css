@@ -7,6 +7,9 @@
   box-sizing: border-box;
 }
 
+.image {
+  border-radius: 5px;
+}
 /* set font for entire page */
 html {
   font-family: sans-serif;
