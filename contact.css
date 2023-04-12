@@ -83,7 +83,6 @@ header::after {
   display: grid;
   row-gap: 0.5rem;
   column-gap: 0.5rem;
-  /* grid-template-columns: repeat(4, 1fr); */
   grid-template-columns: 15% 25% 15% 25%;
   grid-template-rows: 1.5rem 1.5rem 1.5rem 10rem;
   border-radius: 20%;
@@ -101,37 +100,13 @@ header::after {
   border-radius: 5px;
 }
 
-#first-name-label, #first-name-input, #last-name-label, #last-name-input {
-  /* grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row: 1; */
-}
-
-#first-name-label, #last-name-label {
-  margin-right: 0;
-  padding-right: 0;
-}
-
 #submit {
   grid-row-start: 5;
   grid-column-start: 4;
-  grid-column-end: 4;
   width: fit-content;
  justify-self: right;
 }
 
-#form #submit {
-  text-align: right;
-}
-/* .grid-col-span-2 {
-  grid-column: span 2;
-} */
-
-/* #message-input {
-  grid-column-start: 2;
-  grid-column-end: 5;
-  text-align: start;
-} */
 
 /* set styling for links in header */
 .links {

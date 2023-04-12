@@ -8,25 +8,10 @@ function GreetingsOff() {
   document.getElementById("greetings").innerHTML = "";
 }
 
-   const form = document.querySelector("#input-form");
-   const submitButton = document.querySelector("#submit");
-   const scriptURL =
-     "https://script.google.com/macros/s/1XTaVdkdAnzhAHoLOA-x0K4svtJOB9RUnp2OgudFCNoEE4Lo8muDKOgSO/exec";
-
-   form.addEventListener("submit", (e) => {
-     submitButton.disabled = true;
-     e.preventDefault();
-     let requestBody = new FormData(form);
-     fetch(scriptURL, { method: "POST", body: requestBody })
-       .then((response) => {
-         alert("Success!", response);
-         submitButton.disabled = false;
-       })
-       .catch((error) => {
-         alert("Error!", error.message);
-         submitButton.disabled = false;
-       });
-   });
+function openAnotherPage() {
+  window.location.href = "another_page.html";
+  // document.getElementById("contact_us").hidden;
+}
 // const prev = document.querySelector(".prev");
 // const next = document.querySelector(".next");
 // const images = document.querySelector(".carousel").children;
