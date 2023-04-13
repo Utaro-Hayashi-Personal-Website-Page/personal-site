@@ -83,6 +83,7 @@ header::after {
   display: grid;
   row-gap: 0.5rem;
   column-gap: 0.5rem;
+  /* grid-template-columns: 1fr 1.67fr 1fr 1.67fr; */
   grid-template-columns: 15% 25% 15% 25%;
   grid-template-rows: 1.5rem 1.5rem 1.5rem 10rem;
   border-radius: 20%;
@@ -104,8 +105,27 @@ header::after {
   grid-row-start: 5;
   grid-column-start: 4;
   width: fit-content;
- justify-self: right;
+  justify-self: right;
 }
+
+/* #thanks-for-contact {
+  font-size: h1;
+  color: #ffffff;
+  animation: shake 1.382s;
+  animation-iteration-count: infinite;
+} */
+
+/* @media screen and (min-width: 75em) {
+  #contact-form {
+    grid-template-areas:
+      "one"
+      "two"
+      "three" 
+      "four"  
+      "five";
+  }
+} */
+
 
 
 /* set styling for links in header */
