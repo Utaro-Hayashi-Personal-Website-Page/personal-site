@@ -26,7 +26,7 @@ main {
   background-image: url("img/limitless.png");
   background-size: cover;
   min-height: 100vh;
-  padding: 64px 24px 96px;
+  padding: 32px 24px 96px;
   box-shadow: 12px 12px 12px 12px black;
   color: #eeeeeef6;
   background-color: rgba(0, 0, 0, 0.941);
