@@ -10,8 +10,19 @@ function GreetingsOff() {
 
 function openAnotherPage() {
   window.location.href = "another_page.html";
-  // document.getElementById("contact_us").hidden;
+  document.getElementById("thanks-for-contact").innerHTML =
+    "Thanks for contacting us!";
+  // const email = document.getElementById("email-input").value;
+  // const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  // if (regex.test(email)) {
+  //   window.location.href = "another_page.html";
+  // } else {
+
+  // }
 }
+
+// window.location.href = "another_page.html";
+// document.getElementById("contact_us").hidden;
 // const prev = document.querySelector(".prev");
 // const next = document.querySelector(".next");
 // const images = document.querySelector(".carousel").children;
