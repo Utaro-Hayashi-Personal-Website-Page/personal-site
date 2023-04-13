@@ -11,14 +11,6 @@ function GreetingsOff() {
 function openAnotherPage() {
   window.location.href = "another_page.html";
   document.getElementById("thanks-for-contact").innerHTML =
-    "Thanks for contacting us!";
-  // const email = document.getElementById("email-input").value;
-  // const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  // if (regex.test(email)) {
-  //   window.location.href = "another_page.html";
-  // } else {
-
-  // }
 }
 
 // window.location.href = "another_page.html";

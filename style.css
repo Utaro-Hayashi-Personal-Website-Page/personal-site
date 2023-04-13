@@ -32,7 +32,6 @@ main {
   background-image: url("img/limitless.png");
   background-size: cover;
   min-height: 100vh;
-  padding: 32px 24px 32px;
   box-shadow: 12px 12px 12px 12px black;
   color: #eeeeeef6;
   background-color: rgba(0, 0, 0, 0.941);
@@ -97,8 +96,6 @@ section:nth-of-type(even)>img {
 #thanks-for-contact {
   font-size: h1;
   color: #ffffff;
-  animation: shake 2s;
-  animation-iteration-count: initial;
 }
 
 /* the keyframes adds animation */

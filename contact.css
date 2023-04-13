@@ -78,6 +78,22 @@ header::after {
   padding: 0;
 }
 
+#first-name-input:hover, #last-name-input:hover,
+#email-input:hover,
+#phone-input:hover,
+#message-input:hover,
+#submit:hover {
+  /* width: 10em;
+  height: 5ex; */
+  background-color: rgba(255, 255, 255, 0.927);
+  border: 5px solid rgba(255, 255, 255, 0.705);
+  /* border-radius: 10px; */
+  /* font-weight: bold;
+  color: black; */
+  /* cursor: pointer; */
+}
+
+
 .input-form {
   padding: 2em 4em 2em 4em;
   display: grid;
@@ -89,7 +105,7 @@ header::after {
   border-radius: 20%;
 }
 
-#first-name-input, #last-name-input, #email-input, #phone-input {
+#first-name-input, #last-name-input, #email-input, #phone-input, #submit {
   border-radius: 5px;
 }
 
@@ -107,26 +123,6 @@ header::after {
   width: fit-content;
   justify-self: right;
 }
-
-/* #thanks-for-contact {
-  font-size: h1;
-  color: #ffffff;
-  animation: shake 1.382s;
-  animation-iteration-count: infinite;
-} */
-
-/* @media screen and (min-width: 75em) {
-  #contact-form {
-    grid-template-areas:
-      "one"
-      "two"
-      "three" 
-      "four"  
-      "five";
-  }
-} */
-
-
 
 /* set styling for links in header */
 .links {
