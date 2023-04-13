@@ -10,6 +10,7 @@
 .image {
   border-radius: 5px;
 }
+
 /* set font for entire page */
 html {
   font-family: sans-serif;
@@ -91,6 +92,13 @@ section:nth-of-type(even)>img {
   color: #0abab5;
   animation: shake 1.382s;
   animation-iteration-count: infinite;
+}
+
+#thanks-for-contact {
+  font-size: h1;
+  color: #ffffff;
+  animation: shake 2s;
+  animation-iteration-count: initial;
 }
 
 /* the keyframes adds animation */
