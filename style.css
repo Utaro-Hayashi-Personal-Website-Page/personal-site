@@ -96,6 +96,8 @@ section:nth-of-type(even)>img {
 #thanks-for-contact {
   font-size: h1;
   color: #ffffff;
+  animation: shake 1.5s;
+  animation-iteration-count: 1;
 }
 
 /* the keyframes adds animation */
