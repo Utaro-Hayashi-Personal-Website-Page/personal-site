@@ -10,7 +10,7 @@ function GreetingsOff() {
 
 function openAnotherPage() {
   window.location.href = "another_page.html";
-  document.getElementById("thanks-for-contact").innerHTML =
+  document.getElementById("thanks-for-contact").innerHTML = "Thanks for contacting us!";
 }
 
 // window.location.href = "another_page.html";
